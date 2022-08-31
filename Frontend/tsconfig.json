@@ -24,10 +24,9 @@
     "paths": {
       "@/*": ["*"],
       "@Components/*": ["components/*"],
-      "@Routes/*": ["routes/*"],
       "@Services/*": ["services/*"],
-      "@Store/*": ["store/*"],
       "@Utils/*": ["utils/*"],
+      "@Views/*": ["views/*"],
     }
   },
   "include": [

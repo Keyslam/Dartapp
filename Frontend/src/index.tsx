@@ -4,9 +4,7 @@ import "@/index.css"
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import App from '@Routes/App';
-import A from '@Routes/A';
-import B from '@Routes/B';
+import App from '@/views/App/App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,8 +14,6 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App/>}/>
-        <Route path="/a" element={<A/>}/>
-        <Route path="/b" element={<B/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
