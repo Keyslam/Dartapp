@@ -45,5 +45,19 @@ import { Button } from './Button/Button'
 export { TextField, Button }
 ```
 
+Doing this makes importing cleaner:
+```typescript
+import { TextField } from './Forms/TextField/TextField'
+import { Button } from './Forms/Button/Button'
+
+...
+```
+Becomes:
+```typescript
+import { TextField, Button } from './Forms'
+
+...
+```
+
 - Do not overuse groupings, since the project may then be bloated with `index.ts` files.
 - Only group components that are strongly related to each other.

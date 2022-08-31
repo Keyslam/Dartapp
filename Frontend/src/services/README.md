@@ -12,8 +12,7 @@ Example folder structure for 'MyService':
 ```
 /services
 └── /MyService
-    ├── MyService.tsx
-    ├── MyService.style.css
+    ├── MyService.ts
     └── MyService.test.ts
 ```
 

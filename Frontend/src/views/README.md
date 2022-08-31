@@ -39,7 +39,7 @@ The folder structure of the views must match this:
         └── Game.test.ts
 ```
 
-Routing for this is uses the same sub url:
+Routing for this uses the same sub url:
 ```jsx
 <Route path="/Statistics/Game" element={<Game/>}/>
 ```
