@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "Start (Front-end)": "cd Frontend && npm run start",
+        "Test (Front-end)": "cd Frontend && npm run test"
+    }
+}
