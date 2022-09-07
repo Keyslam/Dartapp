@@ -1,6 +1,9 @@
 {
     "scripts": {
         "Start (Front-end)": "cd Frontend && npm run start",
-        "Test (Front-end)": "cd Frontend && npm run test"
+        "Start (Back-end)": "cd Backend && dotnet run --project App",
+
+        "Test (Front-end)": "cd Frontend && npm run test",
+        "Test (Backend-end)": "cd Backend && dotnet test"
     }
 }
