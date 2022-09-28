@@ -21,6 +21,7 @@ import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import App from '@Views/App/App';
+import { TestApiServiceInstance } from './services/TestApiService/TestApiService';
 
 const root = ReactDOM.createRoot(
 	document.getElementById('root') as HTMLElement
@@ -41,8 +42,8 @@ root.render(
 		<CssBaseline />
 		<AppBar position="relative">
 			<Toolbar>
-				<Typography variant="h6" color="inherit" noWrap>
-					Dartin Molema
+				<Typography id="test-result" variant="h6" color="inherit" noWrap>
+					Non test result
 				</Typography>
 			</Toolbar>
 		</AppBar>
@@ -100,6 +101,8 @@ root.render(
 		{/* End footer */}
 	</ThemeProvider >
 );
+
+TestApiServiceInstance.echo("Dartin Testema").then((message: string) => { document.getElementById("test-result")!.innerText = message; });
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
