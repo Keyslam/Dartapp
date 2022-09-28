@@ -17,3 +17,8 @@ Use the included NPM scripts to easily run the system(s)
 `npm run-script Test (Front-end)`
 
 `npm run-script Test (Back-end)`
+
+### MySQL credentials
+Host: dartinmolema.nl:3306
+username: dartapp-development password:D3velopment!
+username: dartapp-productie password:Pr0ductie!
