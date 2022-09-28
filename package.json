@@ -4,6 +4,8 @@
         "Start (Back-end)": "cd Backend && dotnet run --project App",
 
         "Test (Front-end)": "cd Frontend && npm run test",
-        "Test (Backend-end)": "cd Backend && dotnet test"
+        "Test (Backend-end)": "cd Backend && dotnet test",
+
+        "Setup": "service mysql start && mysql < Database/BuildDatabase"
     }
 }
